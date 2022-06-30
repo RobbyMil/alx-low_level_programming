@@ -2,7 +2,7 @@
 
 /**
  *main - is the entry point
- *return: if return is equal to zero it means all went well
+ *return: if return = 0 it means all went well
  */
 
 int main(void)

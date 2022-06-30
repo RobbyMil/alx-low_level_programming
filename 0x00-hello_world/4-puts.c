@@ -1,10 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- *Main is the entry point
- *All other functions are called from within it
- *If return is equal to zero it means all went well
+ *Main: is the entry point
+ *Return: if return is equal to zero it means all went well
  */
 
 int main(void)

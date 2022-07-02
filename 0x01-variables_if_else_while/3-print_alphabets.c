@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - prints all alphabets letters in lower cases then in upper cases then  newline at the end
+ * main - prints all alphabets letters in lower cases then in upper cases
  * Return: returns value 0 to signify success
 */
 
@@ -13,7 +13,7 @@ int main(void)
 	char uppers;
 
 	lowers = 'a';
-	
+
 	uppers = 'A';
 
 	while (lowers <= 'z' && uppers <= 'Z')

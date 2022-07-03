@@ -20,15 +20,15 @@ int main(void)
 
 	while (digit <= 58)
 	{
-		while (digit < 57)
-		{
-			putchar(comma);
-			putchar(space);
-		}
 		while (digit <= 57)
 		{
 			putchar(digit);
 			digit++;
+		}
+		while (digit < 57)
+		{
+			putchar(comma);
+			putchar(space);
 		}
 	}
 	putchar('\n');

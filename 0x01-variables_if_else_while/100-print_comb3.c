@@ -20,7 +20,7 @@ int main(void)
 
 	for (d1 = 48; d1 <= 57; d1++)
 	{
-		for (d2 = d1+1; d2 <= 57; d2++)
+		for (d2 = d1 + 1; d2 <= 57; d2++)
 		{
 			putchar(d1);
 			putchar (d2);

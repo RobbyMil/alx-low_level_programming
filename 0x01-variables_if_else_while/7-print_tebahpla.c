@@ -9,7 +9,7 @@
  * while letter >= 'a' print letter & decrement letter-1
  * print newline
  * Return: returns value 0 for success
-*//
+*/
 
 int main(void)
 {

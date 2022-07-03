@@ -4,7 +4,8 @@
 /**
  * main - prints combinations of dogits from 0 to 100
  * used ASCII codes for characters
- * duplicates are not allowed e.g 10 == 01 or 20 == 02..etc * Return: returns value 0 for successful operarion
+ * duplicates are not allowed e.g 01 == 10 ...etc
+ * Return: returns value 0 for successful operation
 */
 
 int main(void)

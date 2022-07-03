@@ -11,15 +11,19 @@
 int main(void)
 {
 	int a;
+
 	char b;
+
 	float c;
+
 	long int d;
+
 	long long int e;
 
-	printf("Size of a char: %d byte(s)\n", sizeof(char));
-	printf("Size of an int: %c byte(s)\n", sizeof(int));
-	printf("Size of a long int: %ld byte(s)\n", sizeof(long int));
-	printf("Size of a long long int: %lld\n", sizeof(long long));
-	printf("Size of a float: %f byte(s)\n", sizeof(float);
+	printf("Size of a char: %d byte(s)\n", sizeof(b));
+	printf("Size of an int: %c byte(s)\n", sizeof(a));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(d));
+	printf("Size of a long long int: %lld\n", sizeof(e));
+	printf("Size of a float: %f byte(s)\n", sizeof(c));
 	return (0);
 }

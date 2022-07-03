@@ -18,14 +18,14 @@ int main(void)
 
 	int comma = 44;
 
-	while (digit <= 58)
+	if (digit <= 58)
 	{
-		while (digit <= 57)
+		if (digit <= 57)
 		{
 			putchar(digit);
 			digit++;
 		}
-		while (digit < 57)
+		if (digit <= 57)
 		{
 			putchar(comma);
 			putchar(space);

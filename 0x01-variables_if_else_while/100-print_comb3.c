@@ -17,7 +17,7 @@ int main(void)
 
 	int space = 32;
 
-	for (d1 <= 57; d1++)
+	for (d1 = 48; d1 <= 57; d1++)
 	{
 		for (d2 = d1+1; d2 <= 57; d2++)
 		{

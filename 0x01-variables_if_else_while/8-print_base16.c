@@ -4,6 +4,7 @@
  *main - prints all num and letters in base 16
  *used nested while loop to verify two conditions
  *used ASCII table to map Dec values matching char in var digit
+ *Return: returns 0 for successful operation
 */
 
 int main(void)

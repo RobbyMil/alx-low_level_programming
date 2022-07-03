@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib h>
+#include <stdlib.h>
 
 /**
  *main - print combination of single digits numbers in ascending order

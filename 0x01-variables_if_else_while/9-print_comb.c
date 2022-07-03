@@ -18,12 +18,18 @@ int main(void)
 
 	int comma = 44;
 
-	while (digit <= 57)
+	while (digit <= 58)
 	{
-		putchar(digit);
-		putchar(comma);
-		putchar(space);
-		digit++;
+		while (digit < 57)
+		{
+			putchar(comma);
+			putchar(space);
+		}
+		while (digit <= 57)
+		{
+			putchar(digit);
+			digit++;
+		}
 	}
 	putchar('\n');
 	return (0);

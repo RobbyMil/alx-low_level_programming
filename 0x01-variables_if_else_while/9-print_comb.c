@@ -18,7 +18,7 @@ int main(void)
 
 	int comma = 44;
 
-	if (digit <= 58)
+	while (digit <= 57)
 	{
 		if (digit <= 57)
 		{

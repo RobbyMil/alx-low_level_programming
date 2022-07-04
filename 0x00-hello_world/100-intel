@@ -1,3 +1,2 @@
 #!/bin/bash
-//compiled c code generate object files with extension 'o'
-gcc -S -masm=intel $CFILE -o $CFILE
+gcc -S -masm=intel $CFILE

@@ -11,21 +11,21 @@
 
 int main(void)
 {
-	int d1 = 47;
+	int d1 = 48;
 
-	int d2 = 48;
+	int d2 = 49;
 
-	int d3 = 49;
+	int d3 = 50;
 
 	int comma = 44;
 
 	int space = 32;
 
-	for (d1 = 47; d1 <= 58; d1++;)
+	for (d1 = 48; d1 <= 57; d1++)
 	{
-		for (d2 = 48; d2 <= 58; d2++;)
+		for (d2 = d1 + 1; d2 <= 58; d2++)
 		{
-			for (d3 = 48; d3 <= 58; d3++;)
+			for (d3 = d2 + 1; d3 <= 58; d3++)
 			{
 				putchar(d1);
 				putchar(d2);

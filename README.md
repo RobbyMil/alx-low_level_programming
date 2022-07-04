@@ -1,2 +1,2 @@
-This repository contains all tue basic concepts needed
+This repository contains all the basic concepts needed
 to get started with C programming

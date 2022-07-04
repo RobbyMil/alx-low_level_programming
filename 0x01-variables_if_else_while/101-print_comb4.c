@@ -3,7 +3,8 @@
 
 /**
  *main - prints all 3 digits numbers from 0 to 1000
- *numbers made of same 3 digits already printed NOT allowed *e.g. 120 is considered same as 210 or 012
+ *120 , 210 and 012 are condidered same
+ * numbers made of same 3 digits already printed NOT allowed
  * used ASCII table for mapping int values to charaters
  * used nested for loops
  * Return: returns value 0 for a successful operation

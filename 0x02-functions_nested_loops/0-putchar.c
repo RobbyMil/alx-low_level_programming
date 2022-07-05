@@ -5,7 +5,7 @@
  *Return: returns 0 for successful operation
 */
 
-int main(voi)
+int main(void)
 {
 	printf("putchar_\n");
 	return (0);

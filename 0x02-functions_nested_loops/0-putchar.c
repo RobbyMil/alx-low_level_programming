@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <main.h>
 
 /**
  * main - print 'putchar_' on console followed by new line

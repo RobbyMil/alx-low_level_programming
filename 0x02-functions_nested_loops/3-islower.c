@@ -1,18 +1,19 @@
 # include "main.h"
 
 /**
- * main - check for lower case letter in a string
- * Returns: return 1 if lowercase and 0 otherwise
+ * _islower - check for lower case letter in a string
+ * parameter c: argument to check
+ * Return: returns 1 if lowercase and 0 otherwise
 */
 
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
-	{ return (0);
+	{ return (1);
 	}
 	else
 	{
-		return (1);
+		return (0);
 	}
 	_putchar('\n');
 }

@@ -22,7 +22,7 @@ int print_last_digit(int n)
 	{
 		abs = n * -1;
 		abs_res = (abs % 10);
-		dbl1 = abs_res *11
+		dbl1 = abs_res *11;
 		return (dbl1);
 	}	
 	return (dbl);

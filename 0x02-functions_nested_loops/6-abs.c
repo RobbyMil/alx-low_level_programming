@@ -5,19 +5,19 @@
  * Return: returns the absolute value of int argument
 */
 
-int abs(int n)
+int _abs(int n)
 {
-	int _abs;
+	int absval;
 
 	if (n < 0)
 	{
-		_abs = n *-1;
-		return (_abs);
+		absval = n *-1;
+		return (absval);
 	}
 	else if (n >= 0)
 	{
-		_abs = n;
-		return (_abs);
+		absval = n;
+		return (absval);
 	}
 	return (0);
 }

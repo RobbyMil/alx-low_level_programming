@@ -3,7 +3,7 @@
 /**
  * _isalpha - check if argument passed is alphabet
  * c: argument to check
- * Return: returns 1 if argument is alphabet else returns 0*/
+ * Return: returns 1 if argument is alphabet else returns 0 */
 
 int _isalpha(int c)
 {

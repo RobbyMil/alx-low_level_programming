@@ -12,11 +12,13 @@ int abs(int n)
 	if (n < 0)
 	{
 		_abs = n *-1;
+		return (_abs);
 	}
-	else
+	else if (n >= 0)
 	{
 		_abs = n;
+		return (_abs);
 	}
-	return (_abs);
+	return (0);
 }
 

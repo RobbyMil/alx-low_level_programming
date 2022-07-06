@@ -1,7 +1,7 @@
 # include "main.h"
 
 /**
- * abs - compute the absolute value of the passed argument
+ * _abs - compute the absolute value of the passed argument
  * Return: returns the absolute value of int argument
 */
 
@@ -11,7 +11,7 @@ int _abs(int n)
 
 	if (n < 0)
 	{
-		absval = n *-1;
+		absval = n * -1;
 		return (absval);
 	}
 	else if (n >= 0)

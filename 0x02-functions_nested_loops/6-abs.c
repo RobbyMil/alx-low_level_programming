@@ -2,6 +2,7 @@
 
 /**
  * _abs - compute the absolute value of the passed argument
+ * @n: argument to be computed
  * Return: returns the absolute value of int argument
 */
 

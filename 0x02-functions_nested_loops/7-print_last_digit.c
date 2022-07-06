@@ -12,13 +12,18 @@ int print_last_digit(int n)
 	
 	int abs_res;
 
-	int res = (n % 10 * 11);
+	int res = (n % 10);
+
+	int dbl = res * 11;
+
+	int dbl1; 
 
 	if (n < 0)
 	{
 		abs = n * -1;
-		abs_res = (abs % 10 * 11);
-		return (abs_res);
+		abs_res = (abs % 10);
+		dbl1 = abs_res *11
+		return (dbl1);
 	}	
-	return (res);
+	return (dbl);
 }

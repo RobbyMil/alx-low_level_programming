@@ -9,6 +9,8 @@
 int print_last_digit(int n)
 {
 	int abs;
+	
+	int abs_res;
 
 	int res = (n % 10) * 11;
 

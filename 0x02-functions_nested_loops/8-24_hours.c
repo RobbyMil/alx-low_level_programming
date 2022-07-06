@@ -5,7 +5,7 @@
 */
 
 void jack_bauer(void)
- {
+{
 	 int hours = 0;
 
 	 int min = 0;

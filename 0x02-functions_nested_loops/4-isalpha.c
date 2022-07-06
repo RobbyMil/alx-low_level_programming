@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - check if argument passed is alphabet
- * c: argument to check
+ * @c: argument to check
  * Return: returns 1 if argument is alphabet else 0
 */
 

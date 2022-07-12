@@ -1,8 +1,8 @@
 # include "main.h"
 
 /**
- *print_rev - reverse a string and prints it
- @s: argument string to be reversed
+ * print_rev - reverse a string and prints it
+ * @s: argument string to be reversed
 */
 
 void print_rev(char *s)

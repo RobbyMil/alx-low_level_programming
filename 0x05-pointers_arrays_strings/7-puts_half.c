@@ -31,11 +31,13 @@ void puts_half(char *str)
 	if (len % 2 != 0)
 	{
 		ltr = (len / 2) + 1;
+	}
 	else
 	{
 		ltr = (len / 2);
 	}
 	while (ltr < len)
+	{
 		putchar((*str + ltr));
 	ltr++;
 	}

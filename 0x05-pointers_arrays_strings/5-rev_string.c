@@ -19,6 +19,11 @@ int _strlen(char *s)
 	return (len);
 }
 
+/**
+ * rev_string - reverse string
+ * @s: string parameter to be reversed
+*/
+
 void rev_string(char *s)
 {
 	int i = 0;

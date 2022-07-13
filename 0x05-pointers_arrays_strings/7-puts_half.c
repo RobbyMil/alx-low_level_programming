@@ -5,7 +5,8 @@
  * @s: string argument
  * Return: lenght of argument s
 */
-                                                           int _strlen(char *s)
+
+int _strlen(char *s)
 {
         int len = 0;
 

@@ -20,14 +20,14 @@ int _strlen(char *s)
 
 /**
  * puts2 - prints characters in string with a step of 2
- * @strg: string argument
+ * @str: string argument
 */
 
 void puts2(char *str)
 {
 	int x;
 
-	for (x=0; str[x] != '\0' && x < _strlen(str); x+=2)
+	for (x = 0; str[x] != '\0' && x < _strlen(str); x += 2)
 	{
 		putchar(str[x]);
 	}
